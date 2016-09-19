@@ -4,7 +4,7 @@ public class User {
 	public User (String name, int age) {
 		setName(name);
 		setAge(age);
-		System.out.println("Your name is " + name + " and you are " + age + " years old.");
+		System.out.println("User name is " + name + " and user is " + age + " years old.");
 	}
 	
 	private String name;
