@@ -20,7 +20,9 @@ public class User {
 		
 		setAge(input.nextInt());
 		
-		return user + " name is " + name + " and " + user + " age is " + age + " years old.";
+		String userCapitalized = user.substring(0,1).toUpperCase() + user.substring(1);
+		
+		return userCapitalized + " name is " + getName() + " and " + user + " age is " + getAge() + " years old.";
 	}
 	
 	private String name;
